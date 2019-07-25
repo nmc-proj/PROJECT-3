@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,600,700&display=swap');
+*{
+	padding: unset;
+	margin: unset;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  margin: 0 auto;
+  width:100rem;
+}
+p{
+  margin: unset;
+}
+h1{
+  margin: unset;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/header_bg.png); 
+  background-size: 100rem; 
+  width: 100%;
+  height: 56.25rem;
+}
+.header_content{
+  width: 94.0625rem;
+  height: 56.25rem;
+}
+.header_nav{
+  height: 3.697916666666667rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:0 1.041666666666667rem;
+}
+.header_nav__logo{
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: white;
+}
+.navbar{
+  padding:0;
+}
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus{
+  color: white;
+}
+.nav-link{
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0rem;
+  padding-left: 2.2rem;
+}
+.nav-link{
+  line-height: 2;
+  display: inline-block;
+  color:#747272;
+  text-decoration:none;
+  cursor: pointer;
+}
+.nav-link:after{
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: #747272;
+  transition: width .3s ease-in-out;
+}
+.nav-link:hover:after,
+.nav-link:focus:after{
+  width: 100%;
+}
+.header_title_content{
+  text-align: center;
+  margin: 12rem auto 14.21rem;
+  width:56.875rem;
+  color:white;
+}
+.title_content__title{
+  text-transform: capitalize;
+  font-size: 12.7rem;
+  font-weight: 600;
+}
+.title_content__textblock{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.title_content__text{
+  font-size: 2rem;
+}
+.title_content__text_elegant{
+  font-size: 2rem;
+  color:#e96b6b;
+  margin: 0 0.4rem;
+}
+.title_content__text_small{
+  font-size: 1.3rem;
+  margin: 2.4rem 0 0;
+}
+.header_social{
+  width: 10.3125rem;
+  height: 1.56rem;
+  background-repeat: no-repeat;
+  background-image: url(../img/social_media.png);
+  margin: 0 auto ;
+}
