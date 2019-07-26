@@ -113,3 +113,58 @@ h1{
   bottom: 2.875rem;
   left: 51.28125rem;
 }
+.about{
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/about_bg.png);
+  background-size: 120rem; 
+  height: 67.5rem;
+  position: relative;
+}
+.about_content{
+  display: flex;
+  flex-direction: row;
+  width: 112.875rem;
+}
+.about_text_header{
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: normal;
+}
+.about_text{
+  line-height: 0.8;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  width:60rem;
+  font-size: 15.48rem;
+  font-weight: 600;
+  z-index: 1;
+  margin-top: 8.3125rem;
+}
+.about_text_small{
+  margin-top: 3.125rem;
+  width:57rem;
+  font-size:1.56rem;
+  line-height: 1.4;
+  white-space: normal;
+}
+.about_pic{
+  position: relative;
+  margin-left: 3.52rem;
+  margin-top: 8.3125rem;
+}
+.about_home{
+  transform: rotate(90deg);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  position:absolute;
+  right: 1rem;
+  top: 5.75rem;
+}
+.about_home:hover {
+   text-decoration: none;
+   color: white;
+}
