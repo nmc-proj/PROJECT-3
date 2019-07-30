@@ -4,10 +4,11 @@
 	margin: unset;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
+  font-size: 1vw;
 }
 body{
   margin: 0 auto;
-  width:120rem;
+  width:100rem;
 }
 p{
   margin: unset;
@@ -20,23 +21,23 @@ h1{
   justify-content: center;
   background-repeat: no-repeat;
   background-image: url(../img/header_bg.png); 
-  background-size: 120rem; 
+  background-size: 100rem; 
   width: 100%;
-  height: 67.5rem;
+  height: 56.25rem;
 }
 .header_content{
-  width: 112.875rem;
+  width: 94.06rem;
   position: relative;
 }
 .header_nav{
-  height: 4.4rem;
+  height: 3.66rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin:0 1.25rem;
+  margin:0 1.04rem;
 }
 .header_nav__logo{
-  font-size: 2rem;
+  font-size: 1.66rem;
   font-weight: 600;
   color: white;
 }
@@ -50,11 +51,11 @@ h1{
 }
 .nav-link{
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.66rem;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 0rem;
-  padding-left: 4.5rem;
+  padding-left: 3.75rem;
 }
 .nav-link{
   line-height: 2;
@@ -66,7 +67,7 @@ h1{
 .nav-link:after{
   display: block;
   content: "";
-  height: 0.1875rem;
+  height: 0.156rem;
   width: 0%;
   background-color: #747272;
   transition: width .3s ease-in-out;
@@ -77,12 +78,12 @@ h1{
 }
 .header_title_content{
   text-align: center;
-  margin: 14.4rem auto;
+  margin: 12rem auto;
   color:white;
 }
 .title_content__title{
   text-transform: capitalize;
-  font-size: 15.24rem;
+  font-size: 12.7rem;
   font-weight: 600;
 }
 .title_content__textblock{
@@ -92,43 +93,46 @@ h1{
 
 }
 .title_content__text{
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 .title_content__text_elegant{
-  font-size: 2.4rem;
+  font-size: 2rem;
   color:#e96b6b;
-  margin: 0 0.5rem;
+  margin: 0 0.416rem;
 }
 .title_content__text_small{
-  font-size: 1.56rem;
-  margin: 2.9rem 0 0;
+  font-size: 1.3rem;
+  margin: 2.416rem 0 0;
+}
+.header_social_main{
+  display: flex;
+  justify-content: center;
+  margin-left: 1.25rem;
 }
 .header_social{
-  width: 11.87rem;
-  height: 1.81rem;
+  width: 9.9rem;
+  height: 1.508rem;
   background-repeat: no-repeat;
   background-image: url(../img/social_media.png);
-  background-size: 11.87rem;
-  position: absolute;
-  bottom: 2.875rem;
-  left: 51.28125rem;
+  background-size: 9.9rem;
+  margin-top:2.15rem;
 }
 .about{
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
   background-image: url(../img/about_bg.png);
-  background-size: 120rem; 
-  height: 67.5rem;
+  background-size: 100rem; 
+  height: 56.25rem;
   position: relative;
 }
 .about_content{
   display: flex;
   flex-direction: row;
-  width: 112.875rem;
+  width: 94.06rem;
 }
 .about_text_header{
-  font-size: 2.3rem;
+  font-size: 1.916rem;
   font-weight: 600;
   line-height: normal;
 }
@@ -136,23 +140,27 @@ h1{
   line-height: 0.8;
   flex-wrap: nowrap;
   white-space: nowrap;
-  width:60rem;
-  font-size: 15.48rem;
+  width:50rem;
+  font-size: 12.9rem;
   font-weight: 600;
   z-index: 1;
-  margin-top: 8.3125rem;
+  margin-top: 6.927rem;
 }
 .about_text_small{
-  margin-top: 3.125rem;
-  width:57rem;
-  font-size:1.56rem;
+  margin-top: 2.604rem;
+  width:47.5rem;
+  font-size:1.3rem;
   line-height: 1.4;
   white-space: normal;
 }
 .about_pic{
   position: relative;
-  margin-left: 3.52rem;
-  margin-top: 8.3125rem;
+  margin-left: 2.933rem;
+  margin-top: 6.927rem;
+}
+.about_pic_pic{
+  width:39.166rem;
+  height:43.229rem;
 }
 .about_home{
   transform: rotate(90deg);
@@ -161,8 +169,8 @@ h1{
   color: white;
   font-weight: 600;
   position:absolute;
-  right: 1rem;
-  top: 5.75rem;
+  right: 0.8333rem;
+  top: 4.7916rem;
 }
 .about_home:hover {
    text-decoration: none;
