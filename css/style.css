@@ -354,8 +354,114 @@ margin-top: 2rem
 
 
 
-
+/* 
 .descr { visibility: hidden; }
 .b:hover + .descr {
  visibility: visible;
+} */
+
+
+.app{
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/app_bg.png);
+  background-size: 100rem; 
+  height: 56.25rem;
+  position: relative;
+  margin-top: -0.08rem;
+}
+.app_content{
+  width: 94.06rem;
+  display:flex;
+}
+.app_content_promo{
+  display: flex;
+  flex-direction: row;
+  margin: 14rem 0rem 0rem 3.33rem;
+}
+.app_content_promo_pic{
+width: 14.8rem;
+height: 30.052rem;
+}
+.app_content_promo_text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.96rem;
+}
+.app_content_promo_text_hey{
+  color: white;
+  font-size: 14.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.1;
+  margin-left: -0.8rem;
+}
+.app_content_promo_text_header{
+  color: white;
+  font-size: 1.1rem;
+  line-height: 3;
+}
+.app_content_promo_text_header_bold{
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.app_content_promo_text_text{
+  color: white;
+  font-size: 0.8rem;
+  width: 14rem;
+}
+.btn-primary {
+  font-weight: 600;
+  color: #254670;
+  background-color: white;
+  border-color: transparent;
+  width: 12rem;
+  margin-top: 1.82rem;
+}/* 
+.btn-primary::hover{
+  
+  color: white;
+} */
+.app_content_features{
+display: flex;
+flex-wrap: wrap;justify-content: space-between;
+
+width: 22.604rem;
+height: 29.68rem;
+margin: 13.3rem 0rem 0rem 15.677rem;
+}
+.app_content_features_feature{
+  width: 8.75rem;
+  height: 12.3rem;/* 
+  margin: 3.75rem 2.76rem 0rem; */
+  text-align: center;
+}
+.feature1{
+  width: 4.53rem;
+  height: 3.23rem;
+}
+.feature2{
+  width: 3.07rem;
+  height: 3.02rem;
+}
+.feature3{
+  width: 3.7rem;
+  height: 4.16rem;
+}
+.feature4{
+  width: 3.9rem;
+  height: 4.16rem;
+}
+.feature_header{
+  color: white;
+  font-size: 1.04rem;
+  font-weight: 600;
+  line-height: 2;
+  margin-top: 1rem;
+}
+.feature_text{
+  color: white;
+font-size: 0.7rem;
 }
