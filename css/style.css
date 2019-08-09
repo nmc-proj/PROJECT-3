@@ -562,6 +562,18 @@ label{
   color: #cbcbcb;
   font-size: 0.8rem;
 }
+.social_button{
+  display: flex;
+  justify-content: space-between;
+}
+.contact_social{
+width: 7.3rem;
+height: 0.93rem;
+}
+.contact_social_pic{
+  width: 7.3rem;
+  height: 0.93rem;
+}
 .form_buttons{
   text-align: right;
 }
