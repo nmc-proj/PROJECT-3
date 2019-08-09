@@ -522,11 +522,65 @@ line-height: 2;
   color: #d56667;
 }
 .contact_content_body_text_text{
-  width:45%;
+  width:23rem;
   font-size: 0.8rem;
 }
-.contact_content_body_form{
-
+.contact_content_body_form {
+  width: 52rem;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+.contact_content_body_form_header{
+  color: black;
+  font-size:1.3rem;
+  font-weight: 600;
+}
+.contact_content_body_form_body{
+  margin-top: 1rem;
+  margin-right: 12rem;
+  text-align: center;
+}
+.form-control{
+  border: 0rem solid #ced4da00;
+  border-bottom: 0.15625rem solid #cbcbcb;
+  width: 19rem;
+  border-radius: 0%;
+}
+.form-control1{
+  border: 0.15625rem solid #ced4da00;
+  border-bottom: 0.15625rem solid #cbcbcb;
+  width: 39.3rem;
+  height: 2rem;
+  border-radius: 0%;
+}
+.form-group{
+  padding-left: 0.26rem;
+  padding-right: 0.26rem;
+}
+label{
+  text-align: left;
+  color: #cbcbcb;
+  font-size: 0.8rem;
+}
+.form_buttons{
+  text-align: right;
+}
+.btn-info {
+  color: #d56667;
+  background-color: white;
+  border-color: #d56667;
+}
+.btn-info:hover {
+  color: white;
+  background-color: #d56667;
+  border-color: #d56667;
+}
+.btn{
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: .15rem;
+  width: 8rem;
+  border: 0.1rem solid;
 }
 .contact_content_footer{
   display:flex;
@@ -539,18 +593,18 @@ line-height: 2;
   font-size: 1.66rem;
   font-weight: 600;
   color: white;
-  margin-top: 5.5rem;
+  margin-top: 3.5rem;
   margin-left: 3.33rem;
 }
 .contact_content_footer_title_text{
   font-size: 0.8rem;
   color: white;
   text-align: left;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-left: 2.3rem;
 }
 .contact_content_footer_menu{
-  margin-top: 4.8rem;
+  margin-top: 2.8rem;
   margin-left: 5.93rem;
   line-height: 1.3;
   text-align: left;
@@ -576,13 +630,17 @@ line-height: 2;
 }
 .contact_content_footer_menu_contact{
   margin-left: 3.1rem;
-  margin-top: 5.95rem;
+  margin-top: 3.95rem;
   text-transform: uppercase;
+  color: #d56667;
+}
+.contact_content_footer_menu_contact:hover{
+  text-decoration: none;
   color: #d56667;
 }
 .contact_content_footer_author{
 margin-left: 7.55rem;
-margin-top: 6.5rem;
+margin-top: 4.5rem;
 }
 .contact_content_footer_author_text{
 font-size: 0.5rem;

@@ -16,11 +16,7 @@
       <div class="header_nav">
         <p class="header_nav__logo">Discovery</p>
         <div class="header_nav_navigation">
-          <nav class="navbar navbar-expand-lg navbar-dark  style=" background-color: rgba(255, 0, 1);">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <nav class="navbar navbar-expand navbar-dark  style=" background-color: rgba(255, 0, 1);">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -39,7 +35,7 @@
                   <a class="nav-link" href="#app">the app</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#chat">chat with us</a>
+                  <a class="nav-link" href="#contact">chat with us</a>
                 </li>
               </ul>
             </div>
@@ -59,7 +55,7 @@
       </div>
     </div>
   </div>
-  <div class="about">
+  <div class="about" id="about">
     <div class="about_content">
       <div class="about_text">
         <p class="about_text_header">We're here</p>Since 1989<p class="about_text_small">Proin gravida nibh vel velit
@@ -77,7 +73,7 @@
     </div>
     <a class="go_back" href="#">Go back to top</a>
   </div>
-  <div class="team">
+  <div class="team" id="team">
     <div class="team_content">
       <div class="team_content_header">
         <p class="team_content_header_large_text">our team</p>
@@ -89,7 +85,7 @@
     </div>
     <a class="go_back" href="#">Go back to top</a>
   </div>
-  <div class="projects">
+  <div class="projects" id="projects">
     <div class="projects_content">
       <div class="projects_content_header">
         <p class="projects_content_header_text">our work</p>
@@ -123,7 +119,7 @@
     </div>
     <a class="go_back" href="#">Go back to top</a>
   </div>
-  <div class="app">
+  <div class="app" id="app">
     <div class="app_content">
       <div class="app_content_promo">
         <img class="app_content_promo_pic" src="../PROJECT-3/img/app_pic.png" alt="">
@@ -163,7 +159,7 @@
       <a class="go_back" href="#">Go back to top</a>
     </div>
   </div>
-  <div class="contact">
+  <div class="contact" id="contact">
     <div class="contact_content">
       <div class="contact_content_header">
         <div class="contact_content_header_title"><span class="contact_content_header_title_white">Let's </span><span
@@ -184,24 +180,23 @@
             taciti sociosqu ad litora torquent.</p>
         </div>
         <div class="contact_content_body_form">
-         <!--  <form>
+          <p class="contact_content_body_form_header">Say Hello!</p>
+          <form class="contact_content_body_form_body">
             <div class="form-row">
               <div class="col">
-                <input type="text" class="form-control" placeholder="your name">
+               <label>Name<input type="text" class="form-control"></label>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" id="inputEmail4" placeholder="your email">
+                <label>E-mail<input type="email" class="form-control" id="inputEmail4"></label>
               </div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
-                placeholder="your message"></textarea>
+              <label>Message<textarea class="form-control1" id="exampleFormControlTextarea1" rows="6"></textarea></label>
             </div>
             <div class="form_buttons">
-              <input type="reset" value="Reset" class="btn btn-primary">
-              <button type="submit" class="btn btn-info">Submit</button>
+              <button type="submit" class="btn btn-info">Send message</button>
             </div>
-          </form> -->
+          </form>
         </div>
       </div>
       <div class="contact_content_footer">
@@ -215,13 +210,12 @@
           <p class="contact_content_footer_menu_title">explore</p>
           <div class="contact_content_footer_menu_content">
               <a class="contact_content_footer_menu_pt" href="">home</a>
-              <a class="contact_content_footer_menu_pt" href="">projects</a>
-              <a class="contact_content_footer_menu_pt" href="">about us</a>
-              <a class="contact_content_footer_menu_pt" href="">the team</a>
+              <a class="contact_content_footer_menu_pt" href="#projects">projects</a>
+              <a class="contact_content_footer_menu_pt" href="#about">about us</a>
+              <a class="contact_content_footer_menu_pt" href="#team">the team</a>
           </div>
         </div>
-        
-        <a class="contact_content_footer_menu_contact" href=""><span class="contact_content_footer_menu_pt_contact">contact us</span></a>
+        <a class="contact_content_footer_menu_contact" href="#contact"><span class="contact_content_footer_menu_pt_contact">contact us</span></a>
         <div class="contact_content_footer_author">
           <p class="contact_content_footer_author_text">© 2017 - Discovery | Made with love by Jonathan M.</p>
         </div>
