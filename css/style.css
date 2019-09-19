@@ -208,9 +208,36 @@ h1{
   color: white;
   font-size:1.3rem;
 }
-.team_content_slider{
 
+
+.team_content_slider{
+  display: flex;
+  justify-content: center;
 }
+.slider_pic{
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}/* 
+.owl-item {
+  height: 20rem;
+  width: 20rem!important;
+} */
+.owl-item{
+  opacity:0.5;
+  visibility: hidden;
+}
+.active{
+  visibility: visible;
+}
+.center{
+  opacity:1;
+  z-index:5;
+}
+
+
+
 .team_content_social{
   margin-top: 36rem;
   margin-left: 3.5rem;
@@ -549,9 +576,12 @@ line-height: 2;
 .form-control1{
   border: 0.15625rem solid #ced4da00;
   border-bottom: 0.15625rem solid #cbcbcb;
-  width: 39.3rem;
+  width: 38.5rem;
   height: 2rem;
   border-radius: 0%;
+}
+.form-row{
+  margin-left: 6px;
 }
 .form-group{
   padding-left: 0.26rem;
@@ -576,6 +606,9 @@ height: 0.93rem;
 }
 .form_buttons{
   text-align: right;
+}
+textarea {
+  resize: none;
 }
 .btn-info {
   color: #d56667;
