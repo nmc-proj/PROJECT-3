@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,10 +10,16 @@
 
   <link rel="stylesheet" href="js/OwlCarousel2/dist/assets/owl.carousel.min.css" />
 
+  <link rel="stylesheet" href="./css/animate.css">
   <link rel="stylesheet" href="./css/style.css">
-  
+
   <title>Discovery</title>
 </head>
+  
+<!-- Кнопка возвращения -->
+<div class="go-back_button">
+  <a class="go-back_link" href="/index.html">Назад</a>
+</div>
 
 <body>
   <div class="header">
@@ -83,14 +90,140 @@
         <p class="team_content_header_large_text">our team</p>
         <p class="team_content_header_small_text">Meet the minds behind every project.</p>
       </div>
+
       <div class="team_content_slider">
-        <div class="owl-carousel owl-theme">
-          <div><img class="slider_pic" src="img/face1.png" alt=""></div>
-          <div><img class="slider_pic" src="img/face2.png" alt=""></div>
-          <div><img class="slider_pic" src="img/face3.png" alt=""></div>
-          <div><img class="slider_pic" src="img/face4.png" alt=""></div>
+        <div class="slider_text_content">
+          <div class="slider_text slider_text-nicole">
+              <h3 class="slider_text-header">Nicole is...</h3>
+              <div class="slider_text-container">
+                <p class="slider_text-text">Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                  elit.</p>
+                <p class="slider_text-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                  accumsan ipsum velit. Nam nec
+                  tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </p>
+              </div>
+              <a class="slider_text-link" href="">Read more.</a>
+          </div>
+          <div class="slider_text slider_text-nicolas active-text">
+              <h3 class="slider_text-header">Nicolas is...</h3>
+              <div class="slider_text-container">
+                <p class="slider_text-text">Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                  elit.</p>
+                <p class="slider_text-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                  accumsan ipsum velit. Nam nec
+                  tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </p>
+              </div>
+              <a class="slider_text-link" href="">Read more.</a>
+          </div>
+          <div class="slider_text slider_text-brad">
+              <h3 class="slider_text-header">Brad is...</h3>
+              <div class="slider_text-container">
+                <p class="slider_text-text">Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                  elit.</p>
+                <p class="slider_text-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                  accumsan ipsum velit. Nam nec
+                  tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </p>
+              </div>
+              <a class="slider_text-link" href="">Read more.</a>
+          </div>
+          <div class="slider_text slider_text-ryan">
+              <h3 class="slider_text-header">Ryan is...</h3>
+              <div class="slider_text-container">
+                <p class="slider_text-text">Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                  elit.</p>
+                <p class="slider_text-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                  accumsan ipsum velit. Nam nec
+                  tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                </p>
+              </div>
+              <a class="slider_text-link" href="">Read more.</a>
+          </div>
         </div>
+        <div class="slider_content">
+          <div class="slider_pics">
+            <img class="slider_pic slider_pic-nicole active active_left" src="img/face1.png" alt="Nicole">
+            <img class="slider_pic slider_pic-nicolas center" src="img/face2.png" alt="Nicolas">
+            <img class="slider_pic slider_pic-brad active active_right" src="img/face3.png" alt="Brad">
+            <img class="slider_pic slider_pic-ryan" src="img/face4.png" alt="Ryan">
+          </div>
+          <div class="slider_dots">
+            <div class="dot dot-nicole"></div>
+            <div class="dot dot-nicolas"></div>
+            <div class="dot dot-brad"></div>
+            <div class="dot dot-ryan"></div>
+          </div>
+        </div>
+       <!--  <div id="owl_pic" class="owl-carousel owl-theme">
+          <div class="slide">
+            
+            <img class="slider_pic" src="img/face1.png" alt="">
+          </div>
+          <div class="slide">
+            <div class="slider_content">
+              <h3 class="slider_content-header">Nicolas is...</h3>
+              <div class="slider_content-text_container">
+                  <p class="slider_content-text">Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                    elit.</p>
+                  <p class="slider_content-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                    accumsan ipsum velit. Nam nec
+                    tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                  </p>
+                </div>
+              <a class="slider_content-link" href="">Read more.</a>
+            </div>
+            <img class="slider_pic" src="img/face2.png" alt="">
+          </div>
+          <div class="slide">
+            <div class="slider_content">
+              <h3 class="slider_content-header">Brad is...</h3>
+              <div class="slider_content-text_container">
+                  <p class="slider_content-text">Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                    elit.</p>
+                  <p class="slider_content-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                    accumsan ipsum velit. Nam nec
+                    tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                  </p>
+                </div>
+              <a class="slider_content-link" href="">Read more.</a>
+            </div>
+            <img class="slider_pic" src="img/face3.png" alt="">
+          </div>
+          <div class="slide">
+            <div class="slider_content">
+              <h3 class="slider_content-header">Ryan is...</h3>
+              <div class="slider_content-text_container">
+                  <p class="slider_content-text">Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+                    elit.</p>
+                  <p class="slider_content-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                    accumsan ipsum velit. Nam nec
+                    tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                  </p>
+                </div>
+              <a class="slider_content-link" href="">Read more.</a>
+            </div>
+            <img class="slider_pic" src="img/face4.png" alt="">
+          </div>
+        </div> -->
+
+
+
+
       </div>
+
+
+
+
+
       <div class="team_content_social"><img class="team_content_social_pic" src="../PROJECT-3/img/team_social_media.png"
           alt=""></div>
     </div>
@@ -194,18 +327,22 @@
           <p class="contact_content_body_form_header">Say Hello!</p>
           <form class="contact_content_body_form_body">
             <div class="form-row">
-               <label>Name<input type="text" class="form-control"></label>
+              <label>Name<input type="text" class="form-control"></label>
               <div class="form-group">
                 <label>E-mail<input type="email" class="form-control" id="inputEmail4"></label>
               </div>
             </div>
             <div class="form-group">
-              <label>Message<textarea class="form-control1" id="exampleFormControlTextarea1" rows="6"></textarea></label>
+              <label>Message<textarea class="form-control1" id="exampleFormControlTextarea1"
+                  rows="6"></textarea></label>
             </div>
-           <div class="social_button"><div class="contact_social"><img class="contact_social_pic" src="../PROJECT-3/img/contact_social_media.png" alt=""></div>
-           <div class="form_buttons">
-             <button type="submit" class="btn btn-info">Send message</button>
-           </div></div>
+            <div class="social_button">
+              <div class="contact_social"><img class="contact_social_pic"
+                  src="../PROJECT-3/img/contact_social_media.png" alt=""></div>
+              <div class="form_buttons">
+                <button type="submit" class="btn btn-info">Send message</button>
+              </div>
+            </div>
           </form>
         </div>
       </div>
@@ -219,13 +356,14 @@
         <div class="contact_content_footer_menu">
           <p class="contact_content_footer_menu_title">explore</p>
           <div class="contact_content_footer_menu_content">
-              <a class="contact_content_footer_menu_pt" href="">home</a>
-              <a class="contact_content_footer_menu_pt" href="#projects">projects</a>
-              <a class="contact_content_footer_menu_pt" href="#about">about us</a>
-              <a class="contact_content_footer_menu_pt" href="#team">the team</a>
+            <a class="contact_content_footer_menu_pt" href="">home</a>
+            <a class="contact_content_footer_menu_pt" href="#projects">projects</a>
+            <a class="contact_content_footer_menu_pt" href="#about">about us</a>
+            <a class="contact_content_footer_menu_pt" href="#team">the team</a>
           </div>
         </div>
-        <a class="contact_content_footer_menu_contact" href="#contact"><span class="contact_content_footer_menu_pt_contact">contact us</span></a>
+        <a class="contact_content_footer_menu_contact" href="#contact"><span
+            class="contact_content_footer_menu_pt_contact">contact us</span></a>
         <div class="contact_content_footer_author">
           <p class="contact_content_footer_author_text">© 2017 - Discovery | Made with love by Jonathan M.</p>
         </div>
@@ -240,8 +378,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-    <script src="js/OwlCarousel2/dist/owl.carousel.min.js"></script>
-    <script src="js/script.js"></script>
+  <script src="js/OwlCarousel2/dist/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
